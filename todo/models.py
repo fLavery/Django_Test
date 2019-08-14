@@ -6,5 +6,5 @@ class Item(models.Model):
     done = models.BooleanField(blank=False, default=False)
     
     def __str__(self):
-        return str(self.name)
+        return self.name
     
